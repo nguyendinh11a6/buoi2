@@ -1,14 +1,11 @@
-// ----- Sử dụng var -----
-console.log(hoistingTestVar); // Kết quả: undefined (biến được hoisting nhưng chưa gán giá trị)
+console.log(hoistingTestVar);
 var hoistingTestVar = 10;
-console.log(hoistingTestVar); // Kết quả: 10
+console.log(hoistingTestVar);
 
-// ----- Sử dụng let -----
-// console.log(hoistingTestLet); // ❌ Lỗi: Cannot access 'hoistingTestLet' before initialization
+// console.log(hoistingTestLet); 
 let hoistingTestLet = 20;
-console.log(hoistingTestLet); // Kết quả: 20
+console.log(hoistingTestLet);
 
-// ----- Sử dụng const -----
-// console.log(hoistingTestConst); // ❌ Lỗi: Cannot access 'hoistingTestConst' before initialization
+// console.log(hoistingTestConst);
 const hoistingTestConst = 30;
-console.log(hoistingTestConst); // Kết quả: 30
+console.log(hoistingTestConst);
